@@ -1,0 +1,13 @@
+$fontstack: 'Poppins',
+sans-serif;
+$fontbody: 'Open Sans',
+sans-serif;
+$colordefault: #000;
+$colorblue: #4A63E7;
+$colororange: #4fade5;
+
+@mixin transition($second) {
+  -webkit-transition: all $second ease-in-out;
+  -moz-transition: all $second ease-in-out;
+  transition: all $second ease-in-out;
+}
