@@ -405,7 +405,7 @@ header .copyright {
 }
 
 .mobile-header {
-  background: #4a63e7;
+  background: linear-gradient(to right, #1957a7ec, #0ea2e9de);
   border-radius: 20px;
   display: none;
   -webkit-transform: translateX(0);
