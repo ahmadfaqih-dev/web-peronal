@@ -1,34 +1,6 @@
-/*
-Template Name: Bako
-Version: 1.0
-Author: PxlSolutions
-Author URI: http://themeforest.net/user/pxlsolutions
-Description: Personal Portfolio & Resume HTML Template
-
-[TABLE OF CONTENTS]
-
-01. Base
-02. Typography
-03. Header
-04. Skills
-05. Portfolio
-06. Clients
-07. Blog
-08. Helper
-09. Buttons
-10. Preloader
-11. Bootstrap Elements
-12. Theme Elements
-13. Slick Settings
-14. Responsive Settings
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic-ext");
 
-/*=================================================================*/
-/*                      BASE                              
-/*=================================================================*/
 body {
   color: #505050;
   background-color: #e2e2e2;
@@ -80,9 +52,6 @@ img {
   background: linear-gradient(to left, #2e19a7, #ae0ee9);
 }
 
-/*=================================================================*/
-/*                      TYPOGRAPHY                              
-/*=================================================================*/
 h1,
 h2,
 h3,
@@ -140,7 +109,6 @@ blockquote p {
   line-height: 1.6;
 }
 
-/* === Pre === */
 pre {
   display: block;
   padding: 9.5px;
@@ -248,9 +216,6 @@ pre {
   padding-left: 10px;
 }
 
-/*=================================================================*/
-/*                      HEADER                              
-/*=================================================================*/
 header.left {
   color: #fff;
   background: linear-gradient(to top, #1863a4, #0ea2e9de);
@@ -574,9 +539,6 @@ section.padding-60 {
   width: 30px;
 }
 
-/*=================================================================*/
-/*                      SKILLS                              
-/*=================================================================*/
 .skill-item .skill-info span {
   font-size: 14px;
 }
@@ -705,9 +667,6 @@ section.padding-60 {
   margin-bottom: 0;
 }
 
-/*=================================================================*/
-/*                      PORTFOLIO                              
-/*=================================================================*/
 .portfolio-wrapper [class*="col-"] {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1008,9 +967,6 @@ section.padding-60 {
   letter-spacing: 0.4px;
 }
 
-/*=================================================================*/
-/*                      CLIENTS                              
-/*=================================================================*/
 .client-item {
   min-height: 60px;
   position: relative;
@@ -1031,9 +987,6 @@ section.padding-60 {
   display: inline-block;
 }
 
-/*=================================================================*/
-/*                      BLOG                              
-/*=================================================================*/
 .blog-item .thumb {
   border-radius: 10px;
   position: relative;
@@ -1115,9 +1068,6 @@ section.padding-60 {
   margin: 0 0 5px;
 }
 
-/*=================================================================*/
-/*                      HELPER                              
-/*=================================================================*/
 .overlay {
   border-radius: 20px;
   background: linear-gradient(to left, #1957a7ec, #0ea2e9de);
@@ -1174,9 +1124,6 @@ section.padding-60 {
   background-attachment: fixed;
 }
 
-/*=================================================================*/
-/*                     BUTTONS
-/*=================================================================*/
 .btn {
   border-radius: 100px;
   font-family: "Poppins", sans-serif;
@@ -1211,7 +1158,6 @@ section.padding-60 {
 }
 
 .btn-default:hover {
-  /* background: #1d4f94; */
   color: #fff;
   -webkit-transform: translateY(100px);
   -moz-transform: translateY(100px);
@@ -1296,9 +1242,6 @@ section.padding-60 {
   line-height: 0;
 }
 
-/*=================================================================*/
-/*                     PRELOADER
-/*=================================================================*/
 #preloader {
   background: #f6f7ff;
   height: 100%;
@@ -1383,9 +1326,6 @@ section.padding-60 {
   }
 }
 
-/*=================================================================*/
-/*                     BOOTSTRAP ELEMENTS
-/*=================================================================*/
 .breadcrumb {
   font-size: 14px;
   padding: 0;
@@ -1399,7 +1339,6 @@ section.padding-60 {
   color: #9c9c9c;
 }
 
-/* === Form Control === */
 .form-control {
   display: block;
   border-radius: 25px;
@@ -1425,12 +1364,10 @@ section.padding-60 {
 }
 
 .form-control::-webkit-input-placeholder {
-  /* Edge */
   color: #999;
 }
 
 .form-control:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: #999;
 }
 
@@ -1454,7 +1391,6 @@ section.padding-60 {
   border-radius: 0;
 }
 
-/* === Alert === */
 .alert {
   padding: 15px;
   margin-bottom: 20px;
@@ -1470,7 +1406,6 @@ section.padding-60 {
   color: inherit;
 }
 
-/* === Pagination === */
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -1533,7 +1468,6 @@ section.padding-60 {
   border-color: transparent;
 }
 
-/* === Progress Bar === */
 .progress {
   height: 3px;
   margin-bottom: 0;
@@ -1560,9 +1494,6 @@ section.padding-60 {
   transition: width 0.6s ease;
 }
 
-/*=================================================================*/
-/*                      THEME ELEMENTS
-/*=================================================================*/
 .social-icons li:not(:last-child) {
   margin-right: 0.3rem;
 }
@@ -1583,7 +1514,6 @@ section.padding-60 {
   background: #fff;
 }
 
-/* === Go to Top === */
 #return-to-top {
   position: fixed;
   bottom: 20px;
@@ -1627,7 +1557,6 @@ section.padding-60 {
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
-  /* 16:9 */
   padding-top: 0;
   height: 0;
 }
@@ -1648,9 +1577,6 @@ section.padding-60 {
   background: #fff;
 }
 
-/*=================================================================*/
-/*                      SLICK SETTINGS
-/*=================================================================*/
 .slick-slide {
   height: auto;
   outline: none;
@@ -1714,9 +1640,7 @@ section.padding-60 {
   top: 8px;
   position: absolute;
   -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Chrome, Safari, Opera */
   transform: rotate(45deg);
 }
 
@@ -1729,9 +1653,7 @@ section.padding-60 {
   position: absolute;
   top: 17px;
   -ms-transform: rotate(135deg);
-  /* IE 9 */
   -webkit-transform: rotate(135deg);
-  /* Chrome, Safari, Opera */
   transform: rotate(135deg);
 }
 
@@ -1744,9 +1666,7 @@ section.padding-60 {
   top: 8px;
   position: absolute;
   -ms-transform: rotate(-45deg);
-  /* IE 9 */
   -webkit-transform: rotate(-45deg);
-  /* Chrome, Safari, Opera */
   transform: rotate(-45deg);
 }
 
@@ -1759,9 +1679,7 @@ section.padding-60 {
   position: absolute;
   top: 17px;
   -ms-transform: rotate(45deg);
-  /* IE 9 */
   -webkit-transform: rotate(45deg);
-  /* Chrome, Safari, Opera */
   transform: rotate(45deg);
 }
 
@@ -1814,10 +1732,7 @@ section.padding-60 {
   background: #4fade5;
 }
 
-/*=================================================================*/
-/*                      RESPONSIVE SETTINGS
-/*=================================================================*/
-@media (max-width: 1200px) and (min-width: 991px) {
+@media (max-width:1200px) and (min-width:991px) {
   .site-wrapper {
     max-width: 970px;
   }
@@ -1827,7 +1742,7 @@ section.padding-60 {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width:991px) {
   .site-wrapper {
     width: 100%;
     padding-left: 15px;
@@ -1867,7 +1782,7 @@ section.padding-60 {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:767px) {
   .hero .cta h1 {
     font-size: 48px;
     line-height: 1.2;
@@ -1897,7 +1812,7 @@ section.padding-60 {
   }
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width:515px) {
   .pf-filter-wrapper {
     display: block;
   }
@@ -1911,7 +1826,7 @@ section.padding-60 {
   }
 }
 
-@media only screen and (max-height: 610px) {
+@media only screen and (max-height:610px) {
   header.left {
     height: calc(100vh - 50px);
     min-height: calc(100vh - 50px);
@@ -1922,5 +1837,3 @@ section.padding-60 {
     margin-top: 50px !important;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
