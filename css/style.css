@@ -1208,7 +1208,6 @@ section.padding-60 {
 .btn-default {
   color: #fff;
   background-image: linear-gradient(to right, #e040fb, #00bcd4);
-  height: 50px;
 }
 
 .btn-default:hover {
