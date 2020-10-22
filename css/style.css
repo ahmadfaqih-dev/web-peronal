@@ -220,12 +220,13 @@ header.left {
   color: #fff;
   background: linear-gradient(to top, #1863a4, #0ea2e9de);
   border-radius: 20px;
-  min-height: 560px;
+  min-height: 585px;
   max-height: 420px;
   top: 40px;
   overflow: hidden;
   position: fixed;
-  width: 265px;
+  width: 240px;
+  margin-top: -12px;
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -1503,10 +1504,10 @@ section.padding-60 {
   background: #4fade5;
   border-radius: 50%;
   display: block;
-  height: 30px;
-  line-height: 32px;
+  height: 25px;
+  line-height: 27px;
   text-align: center;
-  width: 30px;
+  width: 25px;
 }
 
 .social-icons li a:hover {
