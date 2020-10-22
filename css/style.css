@@ -220,9 +220,9 @@ header.left {
   color: #fff;
   background: linear-gradient(to top, #1863a4, #0ea2e9de);
   border-radius: 20px;
-  min-height: 620px;
-  max-height: 620px;
-  top: 50px;
+  min-height: 560px;
+  max-height: 420px;
+  top: 40px;
   overflow: hidden;
   position: fixed;
   width: 265px;
