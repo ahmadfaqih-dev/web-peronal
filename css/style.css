@@ -472,8 +472,8 @@ main.content.push {
 }
 
 .hero {
-  height: 620px;
-  margin-top: 0;
+  height: 585px;
+  margin-top: -21px;
 }
 
 .hero .cta {
@@ -485,7 +485,7 @@ main.content.push {
 .hero .cta h1 {
   color: #fff;
   font-size: 60px;
-  line-height: 0.7;
+  line-height: 1.7;
 }
 
 .hero .cta h1 .dot:after {
