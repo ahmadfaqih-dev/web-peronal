@@ -1071,7 +1071,7 @@ section.padding-60 {
 
 .overlay {
   border-radius: 20px;
-  background: linear-gradient(to left, #1957a7ec, #0ea2e9de);
+  background: linear-gradient(to left, #191654, #43C6AC);
   left: 0;
   top: 0;
   opacity: 0.9;
@@ -1155,7 +1155,7 @@ section.padding-60 {
 
 .btn-default {
   color: #fff;
-  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  background-image: linear-gradient(to right, #000046, #1CB5E0);
 }
 
 .btn-default:hover {
