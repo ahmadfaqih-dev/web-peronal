@@ -49,7 +49,7 @@ img {
 }
 
 .background-blue {
-  background: linear-gradient(to left, #2e19a7, #ae0ee9);
+  background: linear-gradient(to left, #191654, #43C6AC);
 }
 
 h1,
@@ -371,7 +371,7 @@ header .copyright {
 }
 
 .mobile-header {
-  background: linear-gradient(to right, #1957a7ec, #0ea2e9de);
+  background: linear-gradient(to right, #191654, #43C6AC);
   border-radius: 20px;
   display: none;
   -webkit-transform: translateX(0);
