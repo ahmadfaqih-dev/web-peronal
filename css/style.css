@@ -218,7 +218,7 @@ pre {
 
 header.left {
   color: #fff;
-  background: linear-gradient(to top, #43C6AC, #191654);
+  background: linear-gradient(to top, #191654, #43C6AC);
   border-radius: 20px;
   min-height: 585px;
   max-height: 420px;
