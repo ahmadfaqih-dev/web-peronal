@@ -2591,7 +2591,6 @@ textarea.form-control {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -2618,8 +2617,8 @@ textarea.form-control {
 
 .btn.disabled,
 .btn:disabled {
-    opacity: .65;
     height: 40px;
+    border: none;
 }
 
 .btn:not(:disabled):not(.disabled) {
