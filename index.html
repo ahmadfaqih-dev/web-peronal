@@ -128,6 +128,9 @@
             rich experience in web site design and building and customization,
             also I am good at wordpress.
           </p>
+          <h1 class="d-none d-sm-block header-home text-merriweather">Build Your <span id="placetextheader">...</span></h1>
+          <h1 class="d-block d-sm-none title-header-home header-home text-merriweather">Build Your Future
+          Career</h1>
           <a href="#works" class="btn btn-default btn-lg mr-3"><i class="icon-grid"></i>View Portfolio</a>
           <div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
           <a href="https://blog-ahmadfaqih.blogspot.com/" target="_blank" rel="nofollow"
@@ -731,6 +734,54 @@
   <script src="js/contact.js"></script>
   <script src="js/validator.js"></script>
   <script src="js/custom.js"></script>
+  <script type="text/javascript">
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function showLetter(item, selectedIndex) {
+        var selectedIndex = selectedIndex ? selectedIndex : 0
+        var demo_input = document.getElementById('placetextheader');
+
+        if (selectedIndex <= item.length) {
+            var currentIndex = selectedIndex++;
+            demo_input.textContent = item.substr(0, currentIndex);
+            await sleep(50);
+            showLetter(item, selectedIndex);
+        }
+    };
+
+    async function typeLetter() {
+        // var demo_input = document.getElementById('placetextheader')[0];
+
+        var items = [
+            "First Skill",
+            "New Experience",
+            "Big Portfolio",
+            "Future Career"
+        ];
+
+        for (var i = 0; i < items.length; i++) {
+            var selectedItem = items[i];
+
+            await sleep(2000);
+            showLetter(selectedItem)
+        }
+    }
+
+    typeLetter();
+    </script>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
 </body>
 
 </html>
