@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic-ext);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     color: #505050;
-    background-color: #e2e2e2;
-    font-family: "Open Sans", sans-serif;
+    background-color: #d6dfef;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     line-height: 1.7;
     overflow-x: hidden
@@ -388,7 +389,7 @@ header .copyright {
     font-size: 12px;
     opacity: .7;
     margin-left: 42px;
-    
+
 }
 
 .mobile-header {
@@ -532,8 +533,7 @@ section {
 }
 
 section.white-bg {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.664);
+    box-shadow: 8px 8px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55)
 }
 
 section.padding {
@@ -569,7 +569,8 @@ section.padding-60 {
 
 .skill-item h4 {
     font-size: 14px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    box-shadow: 8px 8px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
 }
 
 .fact-item h2 {
@@ -1014,87 +1015,6 @@ section.padding-60 {
     height: -webkit-fill-available
 }
 
-.blog-item .thumb {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.blog-item .thumb img {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
-}
-
-.blog-item .thumb:hover {
-    -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
-    -moz-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
-    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15)
-}
-
-.blog-item .thumb:hover img {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1)
-}
-
-.blog-item .category {
-    border-radius: 50px;
-    background: #4fade5;
-    color: #fff;
-    font-size: 12px;
-    padding: 1px 8px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    z-index: 1
-}
-
-.blog-item .meta {
-    color: #adadad;
-    font-size: 12px
-}
-
-.blog-item .meta li:not(:last-child) {
-    margin-right: 1rem
-}
-
-.blog-item .meta li:after {
-    content: "";
-    background: #4fade5;
-    border-radius: 100%;
-    display: inline-block;
-    height: 3px;
-    margin-left: 1rem;
-    vertical-align: middle;
-    width: 3px
-}
-
-.blog-item .meta li:last-child::after {
-    display: none
-}
-
-.contact-info i {
-    font-size: 24px;
-    color: #4fade5;
-    float: left
-}
-
-.contact-info .details {
-    margin-left: 40px
-}
-
-.contact-info .details h5 {
-    font-size: 16px;
-    margin: 0 0 5px
-}
-
 .overlay {
     border-radius: 20px;
     background: linear-gradient(to right, #191654, #43c6ac);
@@ -1182,12 +1102,12 @@ section.padding-60 {
 }
 
 .btn-default {
-    color: #fff;
-    background: linear-gradient(to right, #00c6ff, #0072ff)
+    box-shadow: inset 9px 9px 14px #b5b5b5,
+            inset -9px -9px 14px #ffffff;
 }
 
 .btn-default:hover {
-    color: #fff;
+    color: #191654;
     -webkit-transform: translateY(100px);
     -moz-transform: translateY(100px);
     -ms-transform: translateY(100px);
@@ -1778,7 +1698,7 @@ section.padding-60 {
         padding-right: 15px
     }
 
-    header.left {
+    header.left-cv {
         top: 25px;
         float: none !important;
         -webkit-transform: translateX(-380px);
@@ -1796,7 +1716,7 @@ section.padding-60 {
         transform: translateX(0)
     }
 
-    header.left button.close {
+    header.left-cv button.close-cv {
         display: block
     }
 
@@ -1856,13 +1776,13 @@ section.padding-60 {
 }
 
 @media only screen and (max-height:610px) {
-    header.left {
+    header.left-cv {
         height: calc(100vh - 50px);
         min-height: calc(100vh - 50px);
         max-height: calc(100vh - 50px)
     }
 
-    header.left .footer {
+    header.left-cv .footer {
         margin-top: 50px !important
     }
 }

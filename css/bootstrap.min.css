@@ -476,6 +476,7 @@ mark {
 .list-inline {
     list-style: none;
     display: flex;
+    margin-left: -45px;
 }
 
 .list-inline-item {
