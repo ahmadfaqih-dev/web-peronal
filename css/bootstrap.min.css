@@ -479,6 +479,11 @@ mark {
     margin-left: -45px;
 }
 
+.list-inline-cv {
+    list-style: none;
+    display: flex;
+}
+
 .list-inline-item {
     display: inline-block
 }
