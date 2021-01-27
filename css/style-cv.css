@@ -537,7 +537,7 @@ section.white-bg {
 }
 
 section.padding {
-    padding: 80px 80px;
+    padding: 15px 80px;
     margin-top: -21px
 }
 
@@ -582,6 +582,11 @@ section.padding-60 {
     font-size: 14px
 }
 
+.tabel {
+    box-shadow: inset 9px 9px 14px #b5b5b5, inset -9px -9px 14px #ffffff;
+    border-radius: 8px;
+}
+
 .service-item {
     border: solid 1px #efefef;
     border-radius: 10px;
@@ -614,13 +619,16 @@ section.padding-60 {
 
 .timeline {
     position: relative;
-    padding: 70px 0
+    padding: 70px 0;
+    box-shadow: inset 9px 9px 14px #b5b5b5, inset -9px -9px 14px #ffffff;
+    border-radius: 8px;
+    padding-left: 18px;
 }
 
 .timeline-line {
     position: absolute;
     top: 0;
-    left: calc(20% + 2px);
+    left: calc(22% + 2px);
     bottom: 0;
     width: 1px;
     background: #e100ff

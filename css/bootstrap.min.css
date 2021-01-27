@@ -8240,7 +8240,13 @@ button.bg-dark:hover {
 
 .mt-5,
 .my-5 {
-    margin-top: 3rem !important
+    margin-top: 3rem !important;
+    box-shadow: inset 9px 9px 14px #b5b5b5, inset -9px -9px 14px #ffffff;
+    border-radius: 8px;
+    padding-left: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 18px;
 }
 
 .mr-5,
