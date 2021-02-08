@@ -218,7 +218,7 @@ pre {
 
 header.left {
     color: #fff;
-    background: linear-gradient(to top, #191654, #43c6ac);
+    background: linear-gradient(to top, #C33764, #1D2671);
     border-radius: 20px;
     min-height: 585px;
     max-height: 420px;
@@ -575,8 +575,8 @@ section.padding-60 {
 }
 
 .service-item:hover {
-    border-color: #4fade5;
-    background: #4fade5;
+    border-color: #ffffff;
+    background: linear-gradient(to right, #C33764, #1D2671);
     color: #fff;
     -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
@@ -746,7 +746,7 @@ section.padding-60 {
 }
 
 .portfolio-item .mask {
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: linear-gradient(to right, #C33764, #1D2671);
     position: absolute;
     left: 0;
     top: 0;
@@ -1074,7 +1074,7 @@ section.padding-60 {
 
 .overlay {
     border-radius: 20px;
-    background: linear-gradient(to right, #191654, #43c6ac);
+    background: linear-gradient(to right, #C33764, #1D2671);
     left: 0;
     top: 0;
     opacity: .9;
@@ -1087,7 +1087,7 @@ section.padding-60 {
     font-size: 24px;
     color: #fff;
     display: inline-block;
-    background: #11a4b5;
+    background: linear-gradient(to left, #2e19a7, #ae0ee9);
     border-radius: 50%;
     height: 50px;
     line-height: 50px;
@@ -1158,7 +1158,7 @@ section.padding-60 {
 
 .btn-default {
     color: #fff;
-    background: linear-gradient(to right, #00c6ff, #0072ff)
+    background: linear-gradient(to left, #2e19a7, #ae0ee9)
 }
 
 .btn-default:hover {
@@ -1523,7 +1523,7 @@ section.padding-60 {
     bottom: 20px;
     right: 20px;
     background: #000;
-    background: rgb(77 109 231);
+    background: #C33764;
     width: 40px;
     height: 40px;
     display: block;
@@ -1555,7 +1555,7 @@ section.padding-60 {
 }
 
 #return-to-top:hover {
-    background: #4fade5
+    background: #1D2671
 }
 
 .videoWrapper {
