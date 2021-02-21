@@ -78,11 +78,11 @@ h1 {
 }
 
 h2 {
-    font-size: 30px
+    font-size: 35px
 }
 
 h3 {
-    font-size: 24px
+    font-size: 30px
 }
 
 h4 {
@@ -523,7 +523,7 @@ section {
 }
 
 section.white-bg {
-    background: #fff
+    background: #bdc3c7b5
 }
 
 section.padding {
@@ -539,7 +539,8 @@ section.padding-60 {
 }
 
 .section-title {
-    margin: 0
+    margin: 0;
+    margin-top:-20px;
 }
 
 .section-title:after {

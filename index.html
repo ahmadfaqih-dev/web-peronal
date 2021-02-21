@@ -18,6 +18,8 @@
   <!-- <link rel="stylesheet" href="css/simplebar.css" type="text/css" media="all" /> -->
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <!-- animation scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
 </head>
 
@@ -109,22 +111,24 @@
         <div class="cta mx-auto mt-2">
           <h1 class="mt-0 mb-4">AHMAD FAQIH<span class="dot"></span></h1>
           <p class="mb-4">
-            Saya adalah seorang Freelancer Web Developer, Saya memberikan jasa membuat website dengan harga sahabat UMKM,
+            Saya adalah seorang Freelancer Web Developer, Saya memberikan jasa membuat website dengan harga sahabat
+            UMKM,
             Tujuannya agar pelaku bisnis UMKM dapat maju dengan berkembang di bisnis era digital 4.0
           </p>
 
           <a href="#works" class="btn btn-default btn-lg mr-3"><i class="icon-grid"></i>View Portfolio</a>
-          <div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
+          <!-- <div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
           <a href="https://blog-ahmadfaqih.blogspot.com/" target="_blank" rel="nofollow"
-            class="btn btn-border-light btn-lg"><i class="icon-pencil"></i>My Blog</a>
+            class="btn btn-border-light btn-lg"><i class="icon-pencil"></i>My Blog</a> -->
         </div>
         <div class="overlay"></div>
       </section>
 
       <!-- section about -->
-      <section id="about" class="shadow-blue white-bg padding">
+      <section id="about" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="2000"
+        data-aos-delay="300">
         <h3 class="section-title">About Me</h3>
-        <div class="spacer" data-height="90"></div>
+        <div class="spacer" data-height="90" style="height: 50px;"></div>
 
         <div class="row">
           <div class="col-md-3">
@@ -166,7 +170,8 @@
       </section>
 
       <!-- section skills -->
-      <section id="skills" class="shadow-blue white-bg padding">
+      <section id="skills" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
+        data-aos-delay="400">
         <h3 class="section-title">My skills</h3>
         <div class="spacer" data-height="80"></div>
 
@@ -269,7 +274,8 @@
       </section>
 
       <!-- section clients -->
-      <section id="clients" class="shadow-blue white-bg padding-50">
+      <section id="clients" class="shadow-blue white-bg padding-50" data-aos="fade-up" data-aos-duration="3000"
+        data-aos-delay="500">
         <!-- hidden heading for validation -->
         <h3 class="section-title">I'm Familiar With</h3>
         <div class="spacer" data-height="80"></div>
@@ -362,8 +368,8 @@
       </section>
 
       <!-- section facts -->
-      <section id="facts" class="shadow-dark color-white background parallax padding-50"
-        data-image-src="images/background.jpg">
+      <section id="facts" class="shadow-dark color-white background parallax padding-50" data-aos="fade-up"
+        data-aos-duration="3000" data-aos-delay="600" data-image-src="images/background.jpg">
         <div class="row relative z-1">
           <div class="col-md-3 col-sm-6">
             <!-- fact item -->
@@ -403,13 +409,15 @@
       </section>
 
       <!-- section services -->
-      <section id="services" class="shadow-blue white-bg padding">
+      <section id="services" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
+        data-aos-delay="700">
         <h3 class="section-title">Services</h3>
         <div class="spacer" data-height="80"></div>
 
         <div class="row">
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-right" data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <i class="fas fa-laptop-code icon-circle"></i>
               <h4 class="my-3">Web Development</h4>
               <p class="mb-0">
@@ -421,7 +429,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="200">
               <i class="icon-chemistry icon-circle"></i>
               <h4 class="my-3">Design</h4>
               <p class="mb-0">
@@ -432,7 +440,8 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-left" data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <i class="fab fa-wordpress-simple icon-circle"></i>
               <h4 class="my-3">Wordpress Optimization</h4>
               <p class="mb-0">
@@ -444,7 +453,8 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-right" data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <i class="icon-rocket icon-circle"></i>
               <h4 class="my-3">SEO</h4>
               <p class="mb-0">
@@ -455,7 +465,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-up" data-aos-anchor-placement="top-center">
               <i class="fas fa-cloud icon-circle"></i>
               <h4 class="my-3">Cloud Hosting</h4>
               <p class="mb-0">
@@ -467,7 +477,8 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item text-center">
+            <div class="service-item text-center" data-aos="fade-left" data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
               <i class="icon-globe icon-circle"></i>
               <h4 class="my-3">Domain Name</h4>
               <p class="mb-0">
@@ -480,7 +491,8 @@
       </section>
 
       <!-- section works -->
-      <section id="works" class="shadow-blue white-bg padding">
+      <section id="works" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
+        data-aos-delay="800">
         <h3 class="section-title">Portfolio</h3>
         <div class="spacer" data-height="80"></div>
 
@@ -511,7 +523,7 @@
         </div>
 
         <!-- portolio wrapper -->
-        <div class="row portfolio-wrapper">
+        <div class="row portfolio-wrapper" data-aos="fade-up" data-aos-duration="3000">
           <!-- portfolio item -->
           <div class="col-md-6 col-sm-8 grid-item web-desaign">
             <a href="images/portfolio/web-desaign/Artboard-100.jpg" target="_blank"">
@@ -649,7 +661,8 @@
 
 
   <!-- section clients -->
-  <section id="clients" class="shadow-blue white-bg padding-50">
+  <section id="clients" class="shadow-blue white-bg padding-50" data-aos="fade-up" data-aos-duration="3000"
+    data-aos-delay="750">
     <!-- hidden heading for validation -->
     <h3 class="section-title">Clients Project</h3>
     <div class="spacer" data-height="80"></div>
@@ -730,7 +743,8 @@
   </section>
 
   <!-- section contact -->
-  <section id="contact" class="shadow-blue white-bg padding">
+  <section id="contact" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
+    data-aos-delay="700">
     <h3 class="section-title">Get in touch</h3>
     <div class="spacer" data-height="80"></div>
 
@@ -795,7 +809,7 @@
 
   <!-- SCRIPTS -->
   <script src="js/app.js"></script>
-  <script src="js/particles.js" ></script>
+  <script src="js/particles.js"></script>
   <script src="js/lib/stats.js"></script>
   <script src="js/jquery-1.12.3.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
@@ -813,11 +827,15 @@
   <script src="js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.2/particles.min.js"></script>
   <script>
-		particlesJS.load('particles-js', 'particles.json', function(){
-				console.log('particles.json loaded...');
-		}); 
-	</script
+    particlesJS.load('particles-js', 'particles.json', function () {
+      console.log('particles.json loaded...');
+    });
+  </script>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
