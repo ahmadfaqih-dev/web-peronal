@@ -6,9 +6,14 @@ body {
     background-color: #e2e2e2;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
-    line-height: 1.7;
+    /* line-height: 1.7; */
     overflow-x: hidden
 }
+
+#particles-js{
+    background-color: #b61924;
+    background-image: url('');
+  }
 
 img {
     max-width: 100%;
@@ -79,6 +84,9 @@ h3 {
 h4 {
     font-size: 18px
 }
+
+/* Particle JS */
+
 
 a {
     color: #000;
