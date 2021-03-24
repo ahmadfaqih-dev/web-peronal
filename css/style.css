@@ -1,18 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic-ext);
 
 body {
     color: #505050;
     background-color: #e2e2e2;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     /* line-height: 1.7; */
     overflow-x: hidden
 }
 
 #particles-js{
-    background-color: #36393f;
-    background-image: url('');
+    background: linear-gradient(to right, #485563, #29323c);
+    /* background-image: url(''); */
   }
 .particles-js-canvas-el {
     position: fixed;
@@ -119,6 +118,10 @@ blockquote {
 
 blockquote p {
     line-height: 1.6
+}
+
+.spacer {
+    height: 55px;
 }
 
 pre {
@@ -1142,7 +1145,7 @@ section.padding-60 {
 }
 
 .btn {
-    border-radius: 100px;
+    border-radius: 6px;
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 400;
