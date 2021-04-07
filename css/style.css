@@ -826,7 +826,7 @@ section.padding-60 {
 }
 
 .portfolio-filter li {
-    color: #888;
+    color: #000;
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
@@ -842,10 +842,11 @@ section.padding-60 {
 }
 
 .portfolio-filter li.current {
-    background: #4fade5;
+    background: linear-gradient(to left, #2e19a7, #ae0ee9);
     color: #fff;
     padding: 6px 14px 4px;
-    border-radius: 30px
+    border-radius: 30px;
+    margin-top: -4px;
 }
 
 .portfolio-filter li:not(:last-child) {
