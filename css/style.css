@@ -9,10 +9,11 @@ body {
     overflow-x: hidden
 }
 
-#particles-js{
+#particles-js {
     background: linear-gradient(to right, #485563, #29323c);
     /* background-image: url(''); */
-  }
+}
+
 .particles-js-canvas-el {
     position: fixed;
     z-index: -1;
@@ -386,7 +387,7 @@ header .copyright {
 }
 
 .mobile-header {
-    background: linear-gradient(to right, #191654, #43c6ac);
+    background: linear-gradient(to left, #2e19a7, #ae0ee9);
     border-radius: 20px;
     display: none;
     -webkit-transform: translateX(0);
@@ -420,7 +421,7 @@ header .copyright {
 
 .mobile-header .site-title.dot:after {
     content: "";
-    background-color: #4fe568;
+    background-color: linear-gradient(to left, #2e19a7, #ae0ee9);
     border-radius: 50%;
     display: inline-block;
     margin-left: 5px;
@@ -543,17 +544,17 @@ section.padding-60 {
 
 .section-title {
     margin: 0;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
 .section-title:after {
     content: "";
-    background: #4fade5;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
     border-radius: 25px;
     display: block;
     height: 5px;
     margin-top: 14px;
-    width: 30px
+    width: 80px
 }
 
 .skill-item .skill-info span {
@@ -1521,7 +1522,7 @@ section.padding-60 {
 
 .social-icons li a {
     color: #fff;
-    background: #4fade5;
+    background: linear-gradient(to left, #2e19a7, #ae0ee9);
     border-radius: 50%;
     display: block;
     height: 25px;
@@ -1531,8 +1532,8 @@ section.padding-60 {
 }
 
 .social-icons li a:hover {
-    color: #4fade5;
-    background: #fff
+    color: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: #2e19a7;
 }
 
 #return-to-top {
@@ -1814,7 +1815,7 @@ section.padding-60 {
     }
 
     .hero .cta p {
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 25px !important
     }
 
@@ -1843,18 +1844,42 @@ section.padding-60 {
     }
 
     .hero .cta h1 {
-        font-size: 36px
-    }
-}
-
-@media only screen and (max-height:610px) {
-    header.left {
-        height: calc(100vh - 50px);
-        min-height: calc(100vh - 50px);
-        max-height: calc(100vh - 50px)
+        font-size: 32px
     }
 
-    header.left .footer {
-        margin-top: 50px !important
+    section.padding {
+        padding: 45px 30px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
+    @media only screen and (max-height:610px) {
+        header.left {
+            height: calc(100vh - 50px);
+            min-height: calc(100vh - 50px);
+            max-height: calc(100vh - 50px)
+        }
+
+        header.left .footer {
+            margin-top: 50px !important
+        }
+    }
