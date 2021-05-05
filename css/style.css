@@ -11,7 +11,8 @@ body {
 
 #particles-js {
     background: linear-gradient(to right, #485563, #29323c);
-    /* background-image: url(''); */
+    background-image: url('../images/particle-bg.jpg');
+    background-attachment: fixed;
 }
 
 .particles-js-canvas-el {
@@ -1859,7 +1860,8 @@ section.padding-60 {
         font-size: 26px;
     }
 
-    .btn-group-lg>.btn, .btn-lg {
+    .btn-group-lg>.btn,
+    .btn-lg {
         padding: 10px 15px;
         font-size: 14px;
     }
@@ -1872,14 +1874,15 @@ section.padding-60 {
         font-size: 12px;
     }
 }
-    @media only screen and (max-height:610px) {
-        header.left {
-            height: calc(100vh - 50px);
-            min-height: calc(100vh - 50px);
-            max-height: calc(100vh - 50px)
-        }
 
-        header.left .footer {
-            margin-top: 50px !important
-        }
+@media only screen and (max-height:610px) {
+    header.left {
+        height: calc(100vh - 50px);
+        min-height: calc(100vh - 50px);
+        max-height: calc(100vh - 50px)
     }
+
+    header.left .footer {
+        margin-top: 50px !important
+    }
+}
