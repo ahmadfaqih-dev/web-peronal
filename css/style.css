@@ -11,7 +11,7 @@ body {
 
 #particles-js {
     background: linear-gradient(to right, #485563, #29323c);
-    background-image: url('../images/particle-bg.jpg');
+    /* background-image: url('../images/particle-bg.jpg'); */
     background-attachment: fixed;
 }
 
