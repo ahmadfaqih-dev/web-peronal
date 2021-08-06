@@ -10,7 +10,7 @@ body {
 }
 
 #particles-js {
-    background: linear-gradient(to right, #153d3e, #113536);
+    background: #002855;
     /* background-image: url('../images/particle-bg.jpg'); */
     background-attachment: fixed;
 }
