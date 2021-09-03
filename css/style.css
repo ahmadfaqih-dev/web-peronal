@@ -805,6 +805,22 @@ section.padding-60 {
     opacity: 1
 }
 
+.priview a {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+}
+
+.priview .live {
+    background-color: #121731;
+}
+
+.priview .code {
+    background-color: #04050a;
+    margin-left: 139px;
+}
+
 .load-more i {
     display: none
 }
