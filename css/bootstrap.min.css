@@ -1,4 +1,10 @@
-:root {
+/*!
+ * Bootstrap v4.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ :root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -272,10 +278,7 @@ input {
 
 button,
 select {
-    text-transform: none;
-    width: auto;
-    height: 25px;
-    border-radius: 6px
+    text-transform: none
 }
 
 [type=reset],
@@ -474,14 +477,8 @@ mark {
 }
 
 .list-inline {
-    list-style: none;
-    display: flex;
-    margin-left: -45px;
-}
-
-.list-inline-cv {
-    list-style: none;
-    display: flex;
+    padding-left: 0;
+    list-style: none
 }
 
 .list-inline-item {
@@ -2597,6 +2594,7 @@ textarea.form-control {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -2623,8 +2621,7 @@ textarea.form-control {
 
 .btn.disabled,
 .btn:disabled {
-    height: 40px;
-    border: none
+    opacity: .65
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -8173,7 +8170,7 @@ button.bg-dark:hover {
 
 .mr-2,
 .mx-2 {
-    margin-right: 1.5rem !important
+    margin-right: .5rem !important
 }
 
 .mb-2,
@@ -8240,22 +8237,7 @@ button.bg-dark:hover {
 
 .mt-5,
 .my-5 {
-    margin-top: 3rem !important;
-    border-radius: 8px;
-    padding-left: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 18px;
-}
-
-.mt-5-cv {
-    margin-top: 3rem !important;
-    box-shadow: inset 9px 9px 14px #b5b5b5, inset -9px -9px 14px #ffffff;
-    border-radius: 8px;
-    padding-left: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 18px;
+    margin-top: 3rem !important
 }
 
 .mr-5,
@@ -10017,3 +9999,5 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
+
+/*# sourceMappingURL=bootstrap.min.css.map */

@@ -7,7 +7,7 @@
   <meta name="description" content="Ahmad Faqih - Personal Portfolio & Resume CV" />
   <meta name="keyword"
     content="ahmadfaqih, Ahmad Faqih, elekyoben, ahmadfaqih-dev, ahmadfaqih.dev, faqih, faqih, ahmadfaqih" />
-  <meta name=" viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="google-site-verification" content="4g3E_Iyee_7xVp-qUZoYb1nkVJirUL0jxyyv5AI4Uqc" />
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg" style="border-radius: 50%;" />
 
@@ -67,6 +67,10 @@
             <li>
               <a href="#works"><i class="icon-screen-desktop"></i>Works</a>
             </li>
+            <li>
+              <a href="#contact"><i class="icon-phone"></i>Contact</a>
+            </li>
+            
           </ul>
         </nav>
 
@@ -162,8 +166,7 @@
                 </p>
               </div>
             </div>
-            <a href="cv.html" class="btn btn-default mr-3"><i class="icon-user"></i>View
-              CV</a>
+            <a href="cv.html" class="btn btn-default mr-3"><i class="icon-cloud-download"></i>Download CV</a>
           </div>
         </div>
       </section>
@@ -644,89 +647,84 @@
 
       </section>
 
-      <!-- section clients -->
-      <section id="clients" class="shadow-blue white-bg padding-50" data-aos="fade-up" data-aos-duration="2000"
-        data-aos-delay="300">
-        <!-- hidden heading for validation -->
-        <h3 class="section-title">Clients Project</h3>
-        <div class="spacer" data-height="50"></div>
 
-        <!-- clients wrapper -->
-        <div class="clients-wrapper row">
+      <!-- section contact -->
+		<section id="contact" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="2000"
+    data-aos-delay="300">
+			<h3 class="section-title">Get in touch</h3>
+			<div class="spacer" data-height="80"></div>
 
-          <div class="col-md-4">
-            <!-- client item -->
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://www.workin.id/" target="_blank" rel="nofollow"><img src="images/client/workin.webp"
-                    width="143" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div>
+			<div class="row">
+				
+				<div class="col-md-4 mb-4 mb-md-0">
+					<!-- contact info -->
+					<div class="contact-info mb-5">
+						<i class="icon-phone"></i>
+						<div class="details">
+							<h5>Phone</h5>
+							<span>082299627294</span>
+						</div>
+					</div>
+					<div class="contact-info mb-5">
+						<i class="icon-envelope"></i>
+						<div class="details">
+							<h5>Email address</h5>
+							<span>ahmadfaqih.dev@gmail.com</span>
+						</div>
+					</div>
+					<div class="contact-info">
+						<i class="icon-location-pin"></i>
+						<div class="details">
+							<h5>Location</h5>
+							<span>Kebon Jeruk Jakarta Barat</span>
+						</div>
+					</div>
+				</div>
 
-          <div class="col-md-4">
-            <!-- client item -->
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://kisahliving.com/" target="_blank" rel="nofollow"><img
-                    src="images/client/kisahliving.webp" width="143" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div>
+				<div class="col-md-8">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form" method="post" action="form/contact.php">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
 
-          <!-- <div class="col-md-4">
-          
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://tokyosquishy.com/" target="_blank" rel="nofollow"><img
-                    src="images/client/tokyosquishy.webp" width="100" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div> -->
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
 
-          <!-- <div class="col-md-4">
-           
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://xoxsml.com/" target="_blank" rel="nofollow"><img
-                    src="images/client/logo-xsml_600x.webp" width="143" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div> -->
+						<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default"><i class="icon-paper-plane"></i>Send Message</button><!-- Send Button -->
 
-          <div class="col-md-4">
-            <!-- client item -->
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://sumibigroup.com/" target="_blank" rel="nofollow"><img
-                    src="images/client/LOGO-SUMIBI-warna-blue-apron.webp" width="143" height="20"
-                    alt="client-name" /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <!-- client item -->
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://ninjajpn.com/" target="_blank" rel="nofollow"><img src="images/client/ninjajpn.webp"
-                    width="143" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <!-- client item -->
-            <div class="client-item">
-              <div class="inner">
-                <a href="https://bmgindonesia.com/" target="_blank" rel="nofollow"><img
-                    src="images/client/Logo-BMG.webp" width="143" height="20" alt="client-name" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+					</form>
+					<!-- Contact Form end -->
 
   </div>
   </div>
