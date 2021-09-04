@@ -283,7 +283,7 @@
         <div class="spacer" data-height="50"></div>
 
         <!-- clients wrapper -->
-        <div class="clients-wrapper row">
+        <div class="clients-wrapper row autoplay">
 
           <div class="col-md-4">
             <!-- client item -->
@@ -367,47 +367,6 @@
           </div>
 
         </div>
-      </section>
-
-      <!-- section facts -->
-      <section id="facts" class="shadow-dark color-white background parallax padding-50" data-aos="fade-up"
-        data-aos-duration="3000" data-aos-delay="300" data-image-src="images/background.jpg">
-        <div class="row relative z-1">
-          <div class="col-md-3 col-sm-6">
-            <!-- fact item -->
-            <div class="fact-item text-center">
-              <i class="icon-like icon-circle"></i>
-              <h2 class="count">10</h2>
-              <span>Projects completed</span>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- fact item -->
-            <div class="fact-item text-center">
-              <i class="icon-cup icon-circle"></i>
-              <h2 class="count">27</h2>
-              <span>Cup of coffee</span>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- fact item -->
-            <div class="fact-item text-center">
-              <i class="icon-emotsmile icon-circle"></i>
-              <h2 class="count">5</h2>
-              <span>Happy customers</span>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- fact item -->
-            <div class="fact-item text-center">
-              <i class="icon-trophy icon-circle"></i>
-              <h2 class="count">6</h2>
-              <span>Awards won</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="overlay"></div>
       </section>
 
       <!-- section services -->
@@ -647,6 +606,46 @@
 
       </section>
 
+            <!-- section facts -->
+            <section id="facts" class="shadow-dark color-white background parallax padding-50" data-aos="fade-up"
+            data-aos-duration="3000" data-aos-delay="300" data-image-src="images/background.jpg">
+            <div class="row relative z-1">
+              <div class="col-md-3 col-sm-6">
+                <!-- fact item -->
+                <div class="fact-item text-center">
+                  <i class="icon-like icon-circle"></i>
+                  <h2 class="count">7</h2>
+                  <span>Projects completed</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <!-- fact item -->
+                <div class="fact-item text-center">
+                  <i class="icon-cup icon-circle"></i>
+                  <h2 class="count">0</h2>
+                  <span>Cup of coffee</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <!-- fact item -->
+                <div class="fact-item text-center">
+                  <i class="icon-emotsmile icon-circle"></i>
+                  <h2 class="count">5</h2>
+                  <span>Happy customers</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <!-- fact item -->
+                <div class="fact-item text-center">
+                  <i class="icon-trophy icon-circle"></i>
+                  <h2 class="count">1</h2>
+                  <span>Awards won</span>
+                </div>
+              </div>
+            </div>
+    
+            <div class="overlay"></div>
+          </section>
 
       <!-- section contact -->
 		<section id="contact" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="2000"
@@ -656,7 +655,7 @@
 
 			<div class="row">
 				
-				<div class="col-md-4 mb-4 mb-md-0">
+				<div class="col-md-6 mb-4 mb-md-0">
 					<!-- contact info -->
 					<div class="contact-info mb-5">
 						<i class="icon-phone"></i>
@@ -681,7 +680,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-8">
+				<div class="col-md-6">
 					<!-- Contact Form -->
 					<form id="contact-form" class="contact-form" method="post" action="form/contact.php">
 						
@@ -751,6 +750,14 @@
   <script src="js/infinite-scroll.min.js"></script>
   <script src="js/imagesloaded.pkgd.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script>
+  $('.autoplay').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+  </script>
   <script src="js/validator.js"></script>
   <script src="js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.2/particles.min.js"></script>

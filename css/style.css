@@ -805,6 +805,11 @@ section.padding-60 {
     opacity: 1
 }
 
+.priview {
+    display: flex;
+    width: max-content;
+}
+
 .priview a {
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -1624,13 +1629,13 @@ section.padding-60 {
 
 .slick-next,
 .slick-prev {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     line-height: 40px;
     text-align: center;
-    background: #000;
-    border-radius: 0;
-    top: calc(50% - 40px);
+    background: #cfd3dd;
+    border-radius: 50px;
+    top: calc(95% - 40px);
     z-index: 1;
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -1663,12 +1668,12 @@ section.padding-60 {
 
 .slick-next:after,
 .slick-next:before {
-    left: 20px
+    left: 15px
 }
 
 .slick-prev:after,
 .slick-prev:before {
-    left: 17px
+    left: 10px
 }
 
 .slick-prev:before {
@@ -1676,8 +1681,8 @@ section.padding-60 {
     background: #fff;
     display: block;
     width: 1px;
-    height: 14px;
-    top: 8px;
+    height: 12px;
+    top: 2px;
     position: absolute;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1689,9 +1694,9 @@ section.padding-60 {
     background: #fff;
     display: block;
     width: 1px;
-    height: 14px;
+    height: 11px;
     position: absolute;
-    top: 17px;
+    top: 10px;
     -ms-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg)
@@ -1702,8 +1707,8 @@ section.padding-60 {
     background: #fff;
     display: block;
     width: 1px;
-    height: 14px;
-    top: 8px;
+    height: 12px;
+    top: 2px;
     position: absolute;
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -1715,9 +1720,9 @@ section.padding-60 {
     background: #fff;
     display: block;
     width: 1px;
-    height: 14px;
+    height: 11px;
     position: absolute;
-    top: 17px;
+    top: 10px;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg)
@@ -1868,5 +1873,17 @@ section.padding-60 {
     }
     header.left .footer {
       margin-top: 50px !important;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .priview {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .priview  {
+        margin-left: -7px;
     }
   }
