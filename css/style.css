@@ -9,6 +9,31 @@ body {
     overflow-x: hidden
 }
 
+html {
+    scrollbar-width: normal;
+    scrollbar-color:#f64f59;
+}
+html::-webkit-scrollbar {
+    width: 1vw;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: cyan;
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color:  #c471ed;
+  }
+
+  html::-webkit-scrollbar-track:hover {
+    background-color: #555;
+  }
+
 #particles-js {
     background: #002855;
     /* background-image: url('../images/particle-bg.jpg'); */
@@ -66,13 +91,25 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     color: #000;
     font-family: Poppins, sans-serif;
     font-weight: 700;
     margin: 20px 0
 }
+
+h5 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+h3 span {
+    color: cyan;
+}
+
+
 
 h1 {
     font-size: 36px
@@ -519,6 +556,7 @@ main.content.push {
     font-size: 16px;
     line-height: 1.8
 }
+
 
 section {
     border-radius: 20px;
