@@ -27,7 +27,7 @@ html::-webkit-scrollbar {
   }
 
   html::-webkit-scrollbar-track {
-    background-color:  #c471ed;
+    background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);;
   }
 
   html::-webkit-scrollbar-track:hover {
@@ -35,7 +35,7 @@ html::-webkit-scrollbar {
   }
 
 #particles-js {
-    background: #002855;
+    background: #070815;
     /* background-image: url('../images/particle-bg.jpg'); */
     background-attachment: fixed;
 }
