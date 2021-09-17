@@ -2,11 +2,12 @@
 
 body {
     color: #000b29;
-    background-color: #e2e2e2;
+    background-image: url('../images/unnamed.png');
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     /* line-height: 1.7; */
-    overflow-x: hidden
+    overflow-x: hidden;
+    background-attachment: fixed;
 }
 
 html {
