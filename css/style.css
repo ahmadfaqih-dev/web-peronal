@@ -1209,7 +1209,7 @@ section.padding-60 {
 }
 
 .btn {
-    border-radius: 6px;
+    border-radius: 50px;
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -1331,7 +1331,7 @@ section.padding-60 {
     height: 100%;
     position: fixed;
     width: 100%;
-    z-index: 5
+    z-index: 5;
 }
 
 #preloader .outer {
@@ -1341,39 +1341,22 @@ section.padding-60 {
     transform: translate(-50%, -50%)
 }
 
-.spinner {
+.outer img {
     margin: 100px auto;
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    text-align: center;
-    -webkit-animation: sk-rotate 2s infinite linear;
-    animation: sk-rotate 2s infinite linear
-}
-
-.dot1,
-.dot2 {
-    width: 60%;
-    height: 60%;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    background-color: #4fade5;
-    border-radius: 100%;
-    -webkit-animation: sk-bounce 2s infinite ease-in-out;
-    animation: sk-bounce 2s infinite ease-in-out
-}
-
-.dot2 {
-    top: auto;
-    bottom: 0;
-    -webkit-animation-delay: -1s;
-    animation-delay: -1s
+    -webkit-animation: sk-rotate 3s infinite linear;
+    animation: sk-rotate 3.5s infinite linear;
 }
 
 @-webkit-keyframes sk-rotate {
+    0% {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+
     100% {
-        -webkit-transform: rotate(360deg)
+        transform: translate(-50%,-50%) rotate(360deg);
     }
 }
 
@@ -1384,7 +1367,7 @@ section.padding-60 {
     }
 }
 
-@-webkit-keyframes sk-bounce {
+/* @-webkit-keyframes sk-bounce {
 
     0%,
     100% {
@@ -1408,7 +1391,7 @@ section.padding-60 {
         transform: scale(1);
         -webkit-transform: scale(1)
     }
-}
+} */
 
 .breadcrumb {
     font-size: 14px;
