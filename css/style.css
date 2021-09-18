@@ -35,17 +35,6 @@ html::-webkit-scrollbar {
     background-color: #555;
   }
 
-#particles-js {
-    background: #070815;
-    /* background-image: url('../images/particle-bg.jpg'); */
-    background-attachment: fixed;
-}
-
-.particles-js-canvas-el {
-    position: fixed;
-    z-index: -1;
-}
-
 img {
     max-width: 100%;
     height: auto
@@ -128,7 +117,6 @@ h4 {
     font-size: 18px
 }
 
-/* Particle JS */
 
 
 a {
@@ -1366,32 +1354,6 @@ section.padding-60 {
         -webkit-transform: rotate(360deg)
     }
 }
-
-/* @-webkit-keyframes sk-bounce {
-
-    0%,
-    100% {
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        -webkit-transform: scale(1)
-    }
-}
-
-@keyframes sk-bounce {
-
-    0%,
-    100% {
-        transform: scale(0);
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        transform: scale(1);
-        -webkit-transform: scale(1)
-    }
-} */
 
 .breadcrumb {
     font-size: 14px;
