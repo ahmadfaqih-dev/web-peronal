@@ -27,15 +27,7 @@
 </head>
 
 <body>
-  <!-- preloader -->
-<div id="preloader">
-	<div class="outer">
-		<div class="spinner"></div>
-      <img src="images/Layout_4.0.svg" alt="">
-		</div>
-	</div>
-</div>
-
+  
   <div id="progressbar"></div>
   <!-- site wrapper -->
   <div class="site-wrapper">
@@ -51,12 +43,31 @@
     </div>
 
     <!-- header -->
+    <!-- Wellcome Fixed -->
+    <section class="header-sticky white-bg padding-50">
+      <!-- hidden heading for validation -->
+      <h3 class="section-title">I'm Familiar With</h3>
+      <div class="spacer" data-height="50"></div>
+
+      <!-- clients wrapper -->
+      <div class="clients-wrapper row">
+
+        <div class="col-md-4">
+          <!-- client item -->
+          <div class="client-item">
+            <div class="inner">
+              <img src="images/tools/trello.webp" width="143" height="20" alt="client-name" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
     <header class="left float-left shadow-dark" id="header">
       <button type="button" class="close" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
       <div class="header-inner d-flex align-items-start flex-column align-items-center">
-        <a href="#"><img src="images/Layout_5.0.png" style="max-width: 50%; margin-left: 35px" alt="ahmadfaqih-dev" /></a>
+        <a href="#"><img src="images/Layout_5.0-1.png" style="max-width: 50%; margin-left: 35px" alt="ahmadfaqih-dev" /></a>
         <a href="#" class="site-title dot mt-3">A. FAQIH</a>
         <span class="site-slogan">Web Design & Developer</span>
 
@@ -120,6 +131,7 @@
     <!-- main content area -->
 
     <main class="content float-right">
+
       <!-- 900x600 -->
       <!-- section hero -->
       <section class="hero background parallax shadow-dark d-flex align-items-center" id="home"
@@ -143,8 +155,7 @@
       </section>
 
       <!-- section about -->
-      <section id="about" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="300">
+      <section id="about" class="shadow-blue white-bg padding">
         <h3 class="section-title">About Me</h3>
         <div class="spacer" data-height="50"></div>
 
@@ -185,8 +196,7 @@
       </section>
 
       <!-- section skills -->
-      <section id="skills" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="2000"
-        data-aos-delay="300">
+      <section id="skills" class="shadow-blue white-bg padding">
         <h3 class="section-title">My skills</h3>
         <div class="spacer" data-height="50"></div>
 
@@ -289,8 +299,7 @@
       </section>
 
       <!-- section clients -->
-      <section id="clients" class="shadow-blue white-bg padding-50" data-aos="fade-up" data-aos-duration="3000"
-        data-aos-delay="300">
+      <section id="clients" class="shadow-blue white-bg padding-50">
         <!-- hidden heading for validation -->
         <h3 class="section-title">I'm Familiar With</h3>
         <div class="spacer" data-height="50"></div>
@@ -383,8 +392,7 @@
       </section>
 
       <!-- section services -->
-      <section id="services" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
-        data-aos-delay="300">
+      <section id="services" class="shadow-blue white-bg padding">
         <h3 class="section-title">Services</h3>
         <div class="spacer" data-height="50"></div>
 
@@ -431,8 +439,7 @@
       </section>
 
       <!-- section works -->
-      <section id="portfolio" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
-        data-aos-delay="300">
+      <section id="portfolio" class="shadow-blue white-bg padding">
         <h3 class="section-title">Portfolio</h3>
         <div class="spacer" data-height="50"></div>
 
@@ -455,7 +462,7 @@
         </div>
 
         <!-- portolio wrapper -->
-        <div class="row portfolio-wrapper" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row portfolio-wrapper">
           <!-- portfolio item -->
 
           <!-- portfolio Web Design -->
@@ -528,13 +535,12 @@
       </section>
 
       <!-- Works -->
-      <section id="works" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="3000"
-        data-aos-delay="300">
+      <section id="works" class="shadow-blue white-bg padding">
         <h3 class="section-title">Recent Works</h3>
         <div class="spacer" data-height="50"></div>
 
         <!-- portolio wrapper -->
-        <div class="row portfolio-wrapper" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row portfolio-wrapper">
           <!-- portfolio item -->
 
 
@@ -624,8 +630,7 @@
       </section>
 
       <!-- section facts -->
-      <section id="facts" class="shadow-dark color-white background parallax padding-50" data-aos="fade-up"
-        data-aos-duration="3000" data-aos-delay="300" data-image-src="images/background.jpg">
+      <section id="facts" class="shadow-dark color-white background parallax padding-50" data-image-src="images/background.jpg">
         <div class="row relative z-1">
           <div class="col-md-3 col-sm-6">
             <!-- fact item -->
@@ -665,8 +670,7 @@
       </section>
 
       <!-- section contact -->
-      <section id="contact" class="shadow-blue white-bg padding" data-aos="fade-up" data-aos-duration="2000"
-        data-aos-delay="300">
+      <section id="contact" class="shadow-blue white-bg padding">
         <h3 class="section-title">Get in touch</h3>
         <div class="spacer" data-height="80"></div>
 
@@ -762,7 +766,7 @@
   <script src="js/lib/stats.js"></script>
   <script src="js/jquery-1.12.3.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
-  <script src="js/popper.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
@@ -786,66 +790,7 @@
   <script>
     AOS.init();
   </script>
-  <script>
-    var TxtRotate = function (el, toRotate, period) {
-      this.toRotate = toRotate;
-      this.el = el;
-      this.loopNum = 0;
-      this.period = parseInt(period, 10) || 2000;
-      this.txt = '';
-      this.tick();
-      this.isDeleting = false;
-    };
-
-    TxtRotate.prototype.tick = function () {
-      var i = this.loopNum % this.toRotate.length;
-      var fullTxt = this.toRotate[i];
-
-      if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-      } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-      }
-
-      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-      var that = this;
-      var delta = 300 - Math.random() * 100;
-
-      if (this.isDeleting) {
-        delta /= 2;
-      }
-
-      if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-      } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-      }
-
-      setTimeout(function () {
-        that.tick();
-      }, delta);
-    };
-
-    window.onload = function () {
-      var elements = document.getElementsByClassName('txt-rotate');
-      for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-rotate');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtRotate(elements[i], JSON.parse(toRotate), period);
-        }
-      }
-      // INJECT CSS
-      var css = document.createElement("style");
-      css.type = "text/css";
-      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-      document.body.appendChild(css);
-    };
-  </script>
+  
 </body>
 
 </html>
