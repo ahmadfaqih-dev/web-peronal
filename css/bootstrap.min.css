@@ -6630,7 +6630,11 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important
+    background-color: #f8f9fa !important;
+    border-radius: 0px 0px 10px 10px;
+    position: fixed;
+    z-index: 2;
+    width: inherit;
 }
 
 a.bg-light:focus,
