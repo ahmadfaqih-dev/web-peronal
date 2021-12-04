@@ -1216,9 +1216,9 @@ img.profile {
 
 .icon-circle {
     font-size: 24px;
-    color: #fff;
+    color: #8563d3;
     display: inline-block;
-    background: linear-gradient(to left, #2e19a7, #ae0ee9);
+    background: #dce8fa;
     border-radius: 50%;
     height: 50px;
     line-height: 50px;
@@ -1578,7 +1578,7 @@ img.profile {
     line-height: 3px;
     color: #fff;
     text-align: center;
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #bd4d4d, #8964d4);
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;
@@ -1895,6 +1895,9 @@ img.profile {
     .blog-item {
       margin: 15px 0;
     }
+    img.profile {
+        margin-bottom: -8px;
+      }
   }
   @media only screen and (max-width: 515px) {
     .pf-filter-wrapper {

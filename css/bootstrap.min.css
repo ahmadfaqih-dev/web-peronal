@@ -6637,6 +6637,12 @@ button.bg-danger:hover {
     width: inherit;
 }
 
+@media only screen and (max-width: 767px) {
+    .bg-light {
+        display: none;
+    }
+}
+
 a.bg-light:focus,
 a.bg-light:hover,
 button.bg-light:focus,

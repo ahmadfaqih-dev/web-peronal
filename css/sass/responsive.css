@@ -74,6 +74,9 @@
   .hero .cta h1 {
     font-size: 36px;
   }
+  .bg-light {
+    display: none;
+  }
 }
 
 @media only screen and (max-height: 610px) {
