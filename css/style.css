@@ -368,8 +368,11 @@ header .site-title.dot:after {
 }
 
 header .site-slogan {
-    font-size: 12px;
-    text-transform: uppercase
+    font-size: 14px;
+    text-transform: initial;
+    font-weight: 400;
+    margin-left: -22px;
+    margin-top: 20px;
 }
 
 header .vertical-menu {
@@ -566,7 +569,7 @@ main.content.push {
 
 .hero .cta {
     color: #fff;
-    max-width: 600px;
+    max-width: 750px;
     z-index: 1
 }
 
@@ -630,12 +633,19 @@ section.padding-60 {
 
 .section-title:after {
     content: "";
-    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #c471ed, #8563d3);
     border-radius: 25px;
     display: block;
     height: 5px;
     margin-top: 14px;
     width: 80px
+}
+
+img.profile {
+    margin-top: -76px;
+    margin-bottom: -82px;
+    position: inherit;
+    margin-left: -40px;
 }
 
 .skill-item .skill-info span {
@@ -674,7 +684,7 @@ section.padding-60 {
 
 .service-item:hover {
     border-color: #ffffff;
-    background: linear-gradient(to right, #C33764, #1D2671);
+    background: linear-gradient(to right, #c471ed, #8563d3);
     color: #fff;
     -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
     -moz-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, .15);
@@ -1194,8 +1204,8 @@ section.padding-60 {
 }
 
 .overlay {
-    border-radius: 20px;
-    background: linear-gradient(to right, #C33764, #1D2671);
+    border-radius: 0px;
+    background: linear-gradient(to right, #8563d3, #1D2671);
     left: 0;
     top: 0;
     opacity: .9;
@@ -1278,12 +1288,12 @@ section.padding-60 {
 }
 
 .btn-default {
-    color: #fff;
-    background: linear-gradient(to left, #2e19a7, #ae0ee9)
+    color: #121731;
+    background: #dce8fa;
 }
 
 .btn-default:hover {
-    color: #fff;
+    color: #8563d3;
     -webkit-transform: translateY(100px);
     -moz-transform: translateY(100px);
     -ms-transform: translateY(100px);
@@ -1351,7 +1361,7 @@ section.padding-60 {
 
 .btn-group-lg>.btn,
 .btn-lg {
-    padding: 12px 26px;
+    padding: 10px 35px;
     font-size: 16px
 }
 
