@@ -456,6 +456,48 @@ header .top-menu li a.active:before {
     width: 3px
 }
 
+/* header mobile */
+header .bottom-menu {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin:auto;
+}
+
+header .bottom-menu i {
+    margin-right: 20px
+}
+
+header .bottom-menu li {
+    line-height: 3;
+    position: relative;
+    display: inline-block;
+}
+
+header .bottom-menu li a {
+    margin-left: 0;
+    padding-left: 25px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+header .bottom-menu li a:hover {
+    margin-left: 1px
+}
+
+header .bottom-menu li a.active:before {
+    content: "";
+    background: #8254d3;
+    display: block;
+    height: 18px;
+    left: -30px;
+    top: 7px;
+    position: absolute;
+    width: 3px
+}
+
 header .copyright {
     font-size: 12px;
     opacity: .7
@@ -1897,7 +1939,11 @@ img.profile {
     }
     img.profile {
         margin-bottom: -8px;
-      }
+      } 
+
+    header .bottom-menu li{
+        margin-left: -8px;
+    }
   }
   @media only screen and (max-width: 515px) {
     .pf-filter-wrapper {
