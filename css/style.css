@@ -690,6 +690,23 @@ img.profile {
     margin-left: -40px;
 }
 
+img.compt {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 0px;
+    right: 0;
+    width: 11%;
+}
+
+img.compt1 {
+    position: absolute;
+    display: block;
+    bottom: 90px;
+    left: 165px;
+    width: 25%;
+}
+
 .skill-item .skill-info span {
     font-size: 14px
 }
