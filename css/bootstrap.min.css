@@ -6630,15 +6630,16 @@ button.bg-danger:hover {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #fff !important;
     border-radius: 0px 0px 10px 10px;
     position: fixed;
     z-index: 2;
     width: inherit;
+    box-shadow: 0 0 1px rgb(25 27 35 / 16%), 0 1px 2px rgb(25 27 35 / 12%);
 }
 
 .bg-light-mobile {
-    background-color: #f8f9fa !important;
+    background-color: #fff !important;
     border-radius: 10px 10px 0px 0px;
     position: fixed;
     z-index: 2;
