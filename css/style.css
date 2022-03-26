@@ -259,6 +259,8 @@ pre {
     padding-left: 10px
 }
 
+
+/* end index */
 header.left {
     color: rgb(0, 0, 0);
     background: transparent;
@@ -579,6 +581,15 @@ header .copyright {
     width: 1170px;
     margin-left: auto;
     margin-right: auto
+}
+
+.site-wrapper-master {
+    width: 1170px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px
 }
 
 main.content {
