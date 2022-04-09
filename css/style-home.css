@@ -36,3 +36,28 @@ h4{
     background: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 13%) 0px 2px 8px;
 }
+
+.list-inline-item:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+ul {
+    padding: 0;
+    color: #000;
+    font-size: 2em;
+}
+
+ul a {
+    color: #00244a;
+}
+
+li {
+    display: inline-block;
+    width: 1em;
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.5);
+}
